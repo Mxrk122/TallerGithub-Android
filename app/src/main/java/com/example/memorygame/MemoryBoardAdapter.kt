@@ -15,6 +15,7 @@ class MemoryBoardAdapter(private val context: Context, private val numPieces: In
         val view = LayoutInflater.from(context).inflate(R.layout.memory_card, parent, false)
         // Devolver la vista envuelta dentro de un soporte de vista
         return ViewHolder(view)
+        
     }
 
     // Este metodo nos pregunta ¿Cual es la cantidad de elementos que hay en nuestro RecyclerView?
