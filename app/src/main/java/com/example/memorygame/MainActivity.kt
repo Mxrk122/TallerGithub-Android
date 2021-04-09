@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // Otorgando objeto
+        // COmentario extra
         rvBoard = findViewById(R.id.rvBoard)
         MovesText = findViewById(R.id.MovesText)
         PairText = findViewById(R.id.PairText)
